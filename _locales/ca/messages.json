@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Aquesta extensió modifica la interfície WIMS per tal de poder llançar fàcilment exercicis en un altre servidor, això permet provar-los sense ser qualificats."
+  },
+
+  "openOnServer": {
+    "message": "Obrir en el servidor "
+  },
+
+  "serverSelection": {
+    "message": "Servidor WIMS:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Obrir la pàgina actual en el servidor "
+  },
+
+  "save": {
+    "message": "Desar"
+  }
+}

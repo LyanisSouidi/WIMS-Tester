@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Deze extensie past de WIMS-interface aan om oefeningen gemakkelijk op een andere server te kunnen starten, waardoor ze kunnen worden getest zonder dat ze worden beoordeeld."
+  },
+
+  "openOnServer": {
+    "message": "Openen op server "
+  },
+
+  "serverSelection": {
+    "message": "WIMS-server:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Open huidige pagina op server "
+  },
+
+  "save": {
+    "message": "Opslaan"
+  }
+}

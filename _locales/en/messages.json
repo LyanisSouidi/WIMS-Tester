@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "This extension modifies the WIMS interface in order to be able to easily launch exercises on another server, this allows them to be tested without being graded."
+  },
+
+  "openOnServer": {
+    "message": "Open on server "
+  },
+
+  "serverSelection": {
+    "message": "WIMS server:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Open current page on server "
+  },
+
+  "save": {
+    "message": "Save"
+  }
+}

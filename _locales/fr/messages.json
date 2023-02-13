@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Cette extension modifie l'interface WIMS afin de pouvoir lancer facilement des exercices sur un autre serveur, cela permet de les tester sans être notés."
+  },
+
+  "openOnServer": {
+    "message": "Ouvrir sur le serveur "
+  },
+
+  "serverSelection": {
+    "message": "Serveur WIMS :"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Ouvrir la page actuelle sur le serveur "
+  },
+
+  "save": {
+    "message": "Enregistrer"
+  }
+}

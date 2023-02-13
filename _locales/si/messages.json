@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Toto rozšírenie upravuje rozhranie WIMS, aby bolo možné ľahko spúšťať cvičenia na inom serveri, čo umožňuje ich testovanie bez hodnotenia."
+  },
+
+  "openOnServer": {
+    "message": "Otvoriť na serveri "
+  },
+
+  "serverSelection": {
+    "message": "WIMS server:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Otvoriť aktuálnu stránku na serveri "
+  },
+
+  "save": {
+    "message": "Uložiť"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "servers": [
+    {
+      "name": "Université Côte d'Azur",
+      "url": "https://wims.univ-cotedazur.fr/wims/wims.cgi"
+    },
+    {
+      "name": "CNRS",
+      "url": "https://wims.math.cnrs.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université Caen Normandie",
+      "url": "https://wims.unicaen.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université Sorbonne Paris Nord",
+      "url": "https://sercalwims.ig-edu.univ-paris13.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université Paris-Saclay",
+      "url": "https://wimsauto.universite-paris-saclay.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Aix-Marseille Université",
+      "url": "https://wims.univ-mrs.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université de Picardie",
+      "url": "https://www.u-picardie.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Académie de Versailles",
+      "url": "https://euler-ressources.ac-versailles.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université de Nice",
+      "url": "http://wims.espe-nice-toulon.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Université Littoral Côte d'Opale",
+      "url": "http://wims.univ-littoral.fr/wims/wims.cgi"
+    },
+    {
+      "name": "Lycée polyvalent Diderot Paris",
+      "url": "http://www.f-lasne.com/wims/wims.cgi"
+    },
+    {
+      "name": "Università degli Studi di Milano-Bicocca",
+      "url": "https://wims.matapp.unimib.it/wims/wims.cgi"
+    },
+    {
+      "name": "Universitat Rovira i Virgili",
+      "url": "http://wims-deq.urv.cat/wims/wims.cgi"
+    },
+    {
+      "name": "Xarxa Telemàtica Educativa de Catalunya",
+      "url": "http://insbaixpenedes.xtec.cat/wims/wims.cgi"
+    },
+    {
+      "name": "Uniwersytet Mikołaja Kopernika",
+      "url": "https://cosmo.astro.uni.torun.pl/wims/wims.cgi"
+    }
+  ]
+}

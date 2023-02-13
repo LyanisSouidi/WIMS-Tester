@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "此扩展修改了 WIMS 界面，以便能够轻松地在另一台服务器上启动练习，这使得它们可以在不评分的情况下进行测试。"
+  },
+
+  "openOnServer": {
+    "message": "在服务器上打开 "
+  },
+
+  "serverSelection": {
+    "message": "WIMS服务器："
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "在服务器上打开当前页面 "
+  },
+
+  "save": {
+    "message": "保存"
+  }
+}

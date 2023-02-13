@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Diese Erweiterung modifiziert die WIMS-Schnittstelle, um Aufgaben einfach auf einem anderen Server starten zu können, sodass sie ohne Benotung getestet werden können."
+  },
+
+  "openOnServer": {
+    "message": "Öffnen auf Server "
+  },
+
+  "serverSelection": {
+    "message": "WIMS-Server:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Öffne aktuelle Seite auf Server "
+  },
+
+  "save": {
+    "message": "Speichern"
+  }
+}

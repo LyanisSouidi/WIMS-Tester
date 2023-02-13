@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "Esta extensión modifica la interfaz de WIMS para poder lanzar ejercicios fácilmente en otro servidor, esto permite que sean evaluados sin ser calificados."
+  },
+
+  "openOnServer": {
+    "message": "Abrir en el servidor "
+  },
+
+  "serverSelection": {
+    "message": "servidor WIMS:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "Abrir la página actual en el servidor "
+  },
+
+  "save": {
+    "message": "Guardar"
+  }
+}

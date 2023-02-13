@@ -1,0 +1,21 @@
+{
+  "extensionDescription": {
+    "message": "この拡張機能は、WIMS インターフェイスを変更して、別のサーバーで演習を簡単に開始できるようにします。これにより、採点せずにテストすることができます。"
+  },
+
+  "openOnServer": {
+    "message": "サーバー上で開く "
+  },
+
+  "serverSelection": {
+    "message": "WIMS サーバー:"
+  },
+
+  "openCurrentPageOnServer": {
+    "message": "サーバー上で現在のページを開く "
+  },
+
+  "save": {
+    "message": "保存する"
+  }
+}
