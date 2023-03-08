@@ -1,7 +1,7 @@
 function createLink(name, oldURL, newURL) {
     let e = document.createElement("a");
     e.className = "_wims_tester_link";
-    e.innerText = "[" + browser.i18n.getMessage("openOnServer") + `'${name}']`;
+    e.innerText = "[" + chrome.i18n.getMessage("openOnServer") + `'${name}']`;
     let link = new URL(newURL);
     link.search = new URL(oldURL).search;
     e.href = link.toString();
@@ -10,15 +10,15 @@ function createLink(name, oldURL, newURL) {
 }
 
 function updateLink(e, name, url) {
-    e.innerText = "[" + browser.i18n.getMessage("openOnServer") + `'${name}']`;
+    e.innerText = "[" + chrome.i18n.getMessage("openOnServer") + `'${name}']`;
     let link = new URL(url);
     link.search = new URL(e.href).search;
     e.href = link.toString();
 }
 
 async function load() {
-    let serversList = await fetch(browser.runtime.getURL("servers.json")).then((response) => response.json()).then((data) => data["servers"]);
-    let preferredServer = await browser.storage.sync.get('preferredServer').then(item => item.preferredServer);
+    let serversList = await fetch(chrome.runtime.getURL("servers.json")).then((response) => response.json()).then((data) => data["servers"]);
+    let preferredServer = await chrome.storage.sync.get('preferredServer').then(item => item.preferredServer);
     if (typeof preferredServer === "undefined" || !preferredServer.hasOwnProperty("url")) preferredServer =  serversList[0];
 
     let list = document.getElementsByClassName("wims_exo_item");
@@ -37,7 +37,7 @@ document.head.append(style);
 
 load();
 
-browser.storage.sync.onChanged.addListener((changes) => {
+chrome.storage.sync.onChanged.addListener((changes) => {
     const changedItems = Object.keys(changes);
     for (const item of changedItems) {
         if (item == "preferredServer") {

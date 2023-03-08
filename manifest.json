@@ -1,17 +1,12 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "WIMS Tester",
   "author": "Lyanis Souidi",
-  "version": "1.0",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "wims-tester@lyanis.sh"
-    }
-  },
+  "version": "1.1",
   "description": "__MSG_extensionDescription__",
-  "homepage_url": "https://github.com/lyanissouidi/wims-tester",
+  "homepage_url": "https://github.com/lyanissouidi/wims-tester/tree/chrome",
   "default_locale": "en",
-  "browser_action": {
+  "action": {
     "default_title": "WIMS Tester",
     "default_popup": "index.html",
     "browser_style": true,
@@ -48,6 +43,12 @@
     {
       "matches": ["*://*/*wims.cgi*"],
       "js": ["inject.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["servers.json"],
+      "matches": ["<all_urls>"]
     }
   ],
   "permissions": ["tabs", "storage"],
